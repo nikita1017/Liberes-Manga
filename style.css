@@ -1,0 +1,26 @@
+   li{
+        list-style-type: none; /* Убираем маркеры */
+   }
+   ul li a{
+       color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        float: left;
+        padding: 0 30px;
+        line-height: 50px;
+        left: 150px;
+   }
+   ul li a:hover{
+        background:#b19613;
+   }
+   nav:before{
+        content: '';
+        display: block;
+        height: 50px;
+        width: 100%;
+        background:rgb(234, 195, 22);
+        position: absolute;
+        left: 0px;
+        z-index: -1;
+   }
